@@ -1,0 +1,243 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.cor1{
+    display: flexbox;
+    box-sizing: border-box;
+    background-color:rgb(0, 0, 0);
+    height: 100vh;
+}
+
+
+.cabecalho{
+
+    padding: 2% 0% 0% 21%;
+   
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+    width: 100%;
+}
+
+.cabecalho__menu__link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: crimson;
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    display:block
+}
+
+
+
+.apresentacao{
+display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    position: absolute;
+    width: 50%;
+    height: 352px;
+    left: 400px;
+    top: 150px;
+    
+}
+
+.apresentacao__conteudo{
+    width: 500px;
+
+}
+
+
+
+
+.apresentacao__conteudo__texto1{
+font-family: 'Krona One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 56px;
+    color: white;
+    width: 500px;
+    position: relative;
+
+    
+        
+}
+
+.strong{
+   
+    color:crimson;
+        order: 0;
+        flex-grow: 0;
+        font-style: normal;
+            font-weight: 400;
+            font-size: 2rem;
+            width: 500px;
+            position: relative;
+
+
+}
+
+.apresentacao__conteudo__paragrafo1{
+font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 40px;
+    width: 100%;
+            flex-grow: 0;
+            color: white;
+            top: 600px;
+            
+}
+
+
+
+.apresentacao__img1{
+    width: 50%;
+    position: absolute;
+        left: 530px;
+        box-shadow: 20px 20px 15px 12px crimson;
+        border-radius: 15px;
+}
+
+.redes{
+    flex-direction: column;
+    text-decoration:none;
+    position: relative;
+    width: 351px;
+    height: 40px;
+    left: 0px;
+    top: -10px;
+    font-family: 'Krona One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 40px;
+        text-align: center;
+            color: #F6F6F6;
+            margin: 15px;
+}
+
+
+
+.botao1{
+
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 16px;
+    margin: 15px;
+    width: 100%;
+    height: 68px;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    background-color: crimson;
+    font-size: 1.5rem;
+}
+
+.botao1:hover{
+    background-color: black;
+}
+
+.botao2{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 50px;
+    margin: 15px;
+    width: 100%;
+    height: 68px;
+background-color: crimson;
+    border: 2px solid #f0f5f7;
+    border-radius: 8px;
+    font-size: 1.5rem;
+}
+
+.botao2:hover{
+    background-color: black;
+}
+
+.botao3{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px; 
+    gap: 50px;
+    margin: 15px;
+    width: 100%;
+    height: 68px;
+background-color: crimson;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.5rem;   
+}
+
+.botao3:hover{
+    background-color: black;
+}
+
+
+.botoes{
+   
+  text-decoration: none;
+position: absolute;
+    width: 35%;
+    height: 334px;
+    left: 10px;
+    top: 100%;
+}
+
+
+.apresentacao__conteudo__links{
+    text-decoration: none;
+
+}
+
+.rodape{
+   color: white;
+   background-color: crimson;
+   text-align: center;
+   padding: 15px;
+    position: absolute;
+    width: 100%;
+    top: 90%;
+    font-size: 1.25rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    justify-content: center;
+}
+
+
+@media (max-width: 1200px){
+    .cabecalho{
+       
+        justify-content: center;
+    }
+    .apresentacao{
+        flex-direction: column-reverse;
+    }
+    
+}
